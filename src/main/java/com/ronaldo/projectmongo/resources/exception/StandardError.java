@@ -1,4 +1,4 @@
-package com.nelioalves.workshopmongo.resources.exception;
+package com.ronaldo.projectmongo.resources.exception;
 
 import java.io.Serializable;
 
@@ -10,7 +10,7 @@ public class StandardError implements Serializable {
 	private String error;
 	private String message;
 	private String path;
-	
+
 	public StandardError() {
 	}
 

@@ -1,4 +1,4 @@
-package com.nelioalves.workshopmongo.services;
+package com.ronaldo.projectmongo.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,10 +6,10 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.nelioalves.workshopmongo.domain.User;
-import com.nelioalves.workshopmongo.dto.UserDTO;
-import com.nelioalves.workshopmongo.repository.UserRepository;
-import com.nelioalves.workshopmongo.services.exception.ObjectNotFoundException;
+import com.ronaldo.projectmongo.domain.User;
+import com.ronaldo.projectmongo.dto.UserDTO;
+import com.ronaldo.projectmongo.repository.UserRepository;
+import com.ronaldo.projectmongo.services.exception.ObjectNotFoundException;
 
 @Service
 public class UserService {

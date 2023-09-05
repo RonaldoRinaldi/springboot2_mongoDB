@@ -1,4 +1,4 @@
-package com.nelioalves.workshopmongo.domain;
+package com.ronaldo.projectmongo.domain;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -8,8 +8,8 @@ import java.util.List;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.nelioalves.workshopmongo.dto.AuthorDTO;
-import com.nelioalves.workshopmongo.dto.CommentDTO;
+import com.ronaldo.projectmongo.dto.AuthorDTO;
+import com.ronaldo.projectmongo.dto.CommentDTO;
 
 @Document
 public class Post implements Serializable {
@@ -21,9 +21,9 @@ public class Post implements Serializable {
 	private String title;
 	private String body;
 	private AuthorDTO author;
-	
+
 	private List<CommentDTO> comments = new ArrayList<>();
-	
+
 	public Post() {
 	}
 
