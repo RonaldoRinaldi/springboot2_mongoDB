@@ -2,12 +2,8 @@
 
 Projeto MongoDB com Spring Boot
 
-Compreender as principais diferenças entre paradigma orientado a documentos e relacional;
+Implemenção de operações de CRUD;
 
-Implementar operações de CRUD;
+Implemenção de associações entre objetos;
 
-Refletir sobre decisões de design para um banco de dados orientado a documentos;
-
-Implementar associações entre objetos;
-
-Realizar consultas com Spring Data e MongoRepository;
+Realizarção de consultas com Spring Data e MongoRepository;
